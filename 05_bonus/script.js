@@ -9,8 +9,9 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-function saluta(persona) {
+function greet(persona) {
   const hour = new Date().getHours();
+  let greeting;
 
   if (hour < 13) {
     return "Buogniorno "+persona;
@@ -22,7 +23,7 @@ function saluta(persona) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(saluta(name));
+console.log(greet(name));
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
