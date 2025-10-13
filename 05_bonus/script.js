@@ -23,7 +23,7 @@ function saluta(persona) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(saluta(name));
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
