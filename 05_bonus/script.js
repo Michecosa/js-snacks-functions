@@ -7,6 +7,8 @@ e buonasera se è sera (oltre le 17)
 
 
 
+const name = 'Mario';
+
 /**
  * Restituisce un saluto personalizzato in base all'ora del giorno
  * 
@@ -17,8 +19,6 @@ e buonasera se è sera (oltre le 17)
  * Esempio: se sono le 15
  * Output: "Buonasera Mario."
 */
-
-const name = 'Mario';
 
 // Dichiara la funzione qui.
 function greet(persona) {
