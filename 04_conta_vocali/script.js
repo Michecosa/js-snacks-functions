@@ -16,6 +16,7 @@ function countVocals(string) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(`Vocali trovate in ${word}: ${countVocals(word)}`);
 
 
 
