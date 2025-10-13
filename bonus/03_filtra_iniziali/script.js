@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function findInitials(list, initial) {
+const findInitials = (list, initial) => {
   const result = [];
   for (let i = 0; i < list.length; i++) {
     const firstLetter = list[i][0];
