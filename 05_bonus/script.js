@@ -14,11 +14,11 @@ function greet(persona) {
   let greeting;
 
   if (hour < 13) {
-    return "Buogniorno "+persona;
+    greeting = "Buongiorno";
   } else if (hour < 17) {
-    return "Buon pomeriggio "+persona;
+    greeting = "Buon pomeriggio";
   } else {
-    return "Buonasera "+persona;
+    greeting = "Buonasera";
   }
 }
 
