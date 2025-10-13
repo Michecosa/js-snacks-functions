@@ -16,7 +16,7 @@ function findInitials(list, initial) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(findInitials(names, 'A'));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
