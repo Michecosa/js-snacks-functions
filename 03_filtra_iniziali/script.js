@@ -4,7 +4,16 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function findInitials(list, initial) {
+  const result = [];
+  for (let i = 0; i < list.length; i++) {
+    const firstLetter = list[i][0];
+    if (firstLetter.toLowerCase() === initial.toLowerCase()) {
+      result.push(list[i]);
+    }
+  }
+  return result;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
