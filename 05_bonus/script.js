@@ -8,6 +8,17 @@ e buonasera se è sera (oltre le 17)
 const name = 'Mario';
 
 
+/**
+ * Restituisce un saluto personalizzato in base all'ora del giorno
+ * 
+ * @param {string} persona - Il nome della persona da salutare
+ * @return {string} - Un messaggio di saluto con il nome incluso
+ * 
+ * @example
+ * Esempio: se sono le 15
+ * Output: "Buonasera Mario."
+ */
+
 // Dichiara la funzione qui.
 function greet(persona) {
   const hour = new Date().getHours();
