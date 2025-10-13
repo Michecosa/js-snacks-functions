@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function getInitials(list) {
+const getInitials = list => {
   const initials = [];
   for (let i = 0; i < list.length; i++) {
     initials.push(list[i][0]);
