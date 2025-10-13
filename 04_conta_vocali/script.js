@@ -4,19 +4,26 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-function countVocals(string) {
-  let vocals = 0;
+function countVowels(string) {
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  let count = 0;
+
   for (let i = 0; i < string.length; i++) {
-    const letter = string[i].toLowerCase();
-    if(letter === 'a' || letter === 'e' ||letter === 'i' ||letter === 'o' ||letter === 'u') {
-      vocals++;
+    if (
+      letter === 'a' ||
+      letter === 'e' ||
+      letter === 'i' ||
+      letter === 'o' ||
+      letter === 'u'
+    ) {
+      count++;
     }
   }
-  return vocals;
+  return count;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(countVocals(word));
+console.log(countVowels(word));
 
 
 
