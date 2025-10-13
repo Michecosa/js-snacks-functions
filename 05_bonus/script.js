@@ -20,6 +20,7 @@ function greet(persona) {
   } else {
     greeting = "Buonasera";
   }
+  return `${greeting} ${persona}.`
 }
 
 // Invoca la funzione qui e stampa il risultato in console
