@@ -5,7 +5,6 @@ buon pomeriggio se è pomeriggio (fino alle 17)
 e buonasera se è sera (oltre le 17)
 */
 
-const name = 'Mario';
 
 
 /**
@@ -17,7 +16,9 @@ const name = 'Mario';
  * @example
  * Esempio: se sono le 15
  * Output: "Buonasera Mario."
- */
+*/
+
+const name = 'Mario';
 
 // Dichiara la funzione qui.
 function greet(persona) {
