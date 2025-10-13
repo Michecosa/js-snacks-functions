@@ -4,7 +4,9 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-const saluta = nome => `ciao ${nome}`
+function saluta(nome) {
+  return "ciao "+nome;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(saluta('Michela'));
